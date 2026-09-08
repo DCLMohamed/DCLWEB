@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Request a Quote | Dubai Coating Limited</title>
+<meta name="description" content="Request a quotation from Dubai Coating Limited for blasting, industrial painting, equipment rental, tank linings and anti-corrosion protection in the UAE.">
+<meta name="theme-color" content="#041a30">
+<link rel="icon" href="assets/img/brand/dcl-logo-source.jpeg">
+<link rel="alternate" hreflang="en" href="/quote.html">
+<link rel="alternate" hreflang="ar" href="/ar/quote.html">
+<link rel="alternate" hreflang="x-default" href="/quote.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/css/style.css?v=4">
+<script>document.documentElement.classList.add('js');</script>
+<script src="assets/js/main.js?v=4" defer></script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ======================================================= HEADER ====== -->
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/img/brand/dcl-wordmark-white.png" alt="Dubai Coating Limited" width="804" height="111">
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="primary-nav">
+      <ul>
+        <li class="nav-group">
+          <details class="nav-drop">
+            <summary>About</summary>
+            <ul>
+              <li><a href="about.html">About DCL</a></li>
+              <li><a href="news.html">News &amp; events</a></li>
+              <li><a href="certifications.html">Certifications &amp; approvals</a></li>
+            </ul>
+          </details>
+        </li>
+        <li class="nav-group">
+          <details class="nav-drop">
+            <summary>Services</summary>
+            <ul>
+              <li><a href="services.html">All services</a></li>
+              <li><a href="plant.html">Plant &amp; equipment</a></li>
+            </ul>
+          </details>
+        </li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="lang-switch" href="ar/quote.html" lang="ar" hreflang="ar">العربية</a></li>
+        <li><a class="btn btn--on-navy" href="quote.html">Request a quote</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-cta">
+      <a class="lang-switch" href="ar/quote.html" lang="ar" hreflang="ar">العربية</a>
+      <a class="btn btn--on-navy" href="quote.html">Request a quote</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ==================================================== PAGE HEAD ====== -->
+<section class="page-head">
+  <div class="wrap">
+    <p class="spec">Enquiry</p>
+    <h1>Request a quote</h1>
+    <div class="blast-rule blast-rule--light"></div>
+    <p class="lede" style="margin-top:1.5rem">
+      Tell us what needs coating, where it is, and when you need it back. We reply with
+      a price and a programme. Drawings and coating schedules can follow by email.
+    </p>
+  </div>
+</section>
+
+<!-- ======================================================== FORM ======= -->
+<section class="section">
+  <div class="wrap quote-layout">
+
+    <div>
+      <form id="quote-form">
+        <div class="field-row">
+          <div class="field">
+            <label for="q-name">Contact name <span class="req">*</span></label>
+            <input id="q-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="q-company">Company <span class="req">*</span></label>
+            <input id="q-company" name="company" type="text" autocomplete="organization" required>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="q-email">Email <span class="req">*</span></label>
+            <input id="q-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="q-phone">Phone</label>
+            <input id="q-phone" name="phone" type="tel" autocomplete="tel" placeholder="+971">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="q-service">Service required <span class="req">*</span></label>
+          <select id="q-service" name="service" required>
+            <option value="">Select a service</option>
+            <option>Equipment rental</option>
+            <option>Abrasive blasting</option>
+            <option>Industrial painting</option>
+            <option>Corrosion protection</option>
+            <option>Surface preparation</option>
+            <option>On-site coating</option>
+            <option>Off-site / workshop coating</option>
+            <option>Tank &amp; vessel internal linings</option>
+            <option>Passive fire protection</option>
+            <option>Dehumidification hire / support</option>
+            <option>More than one of the above</option>
+          </select>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="q-location">Project location</label>
+            <input id="q-location" name="location" type="text" placeholder="Emirate, port or facility">
+          </div>
+          <div class="field">
+            <label for="q-scope">Approximate scope</label>
+            <input id="q-scope" name="scope" type="text" placeholder="e.g. 4,000 m² / 20 spools">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="q-message">Details <span class="req">*</span></label>
+          <textarea id="q-message" name="message" required
+            placeholder="Substrate, coating specification, access, shutdown window, target dates."></textarea>
+        </div>
+
+        <!-- Honeypot. Hidden from people, checked on the server. -->
+        <p class="hp" aria-hidden="true">
+          <label for="q-website">Leave this field empty</label>
+          <input id="q-website" name="website" type="text" tabindex="-1" autocomplete="off">
+        </p>
+
+        <div class="form-actions">
+          <button class="btn btn--solid" type="button" data-send="email">Send enquiry</button>
+        </div>
+
+        <p class="form-status" id="quote-status" role="status" aria-live="polite"></p>
+
+        <p class="form-hint">
+          This sends the enquiry straight to our inbox. If that fails, your own
+          mail app opens with the enquiry filled in instead.
+        </p>
+      </form>
+    </div>
+
+    <aside>
+      <div class="aside-card">
+        <h3>Reach us directly</h3>
+        <ul class="aside-list">
+          <li>
+            <strong>Telephone</strong>
+            <a data-tel href="tel:+97143458438">+971 4 3458438</a>
+          </li>
+          <li>
+            <strong>Fax</strong>
+            <a data-fax href="tel:+97143457671">+971 4 3457671</a>
+          </li>
+          <li>
+            <strong>Email</strong>
+            <a data-mail href="mailto:dcl@emirates.net.ae">dcl@emirates.net.ae</a>
+          </li>
+          <li>
+            <strong>Postal address</strong>
+            <span data-address>PO Box 23366, Dubai, United Arab Emirates</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="aside-card">
+        <h3>What speeds up a price</h3>
+        <ul class="facts" style="margin-top:0">
+          <li>Coating specification or paint schedule</li>
+          <li>Areas or item counts, even approximate</li>
+          <li>Access details and any shutdown window</li>
+          <li>Whether the work is on your site or ours</li>
+        </ul>
+      </div>
+    </aside>
+
+  </div>
+</section>
+
+</main>
+
+<!-- ======================================================= FOOTER ====== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-mark">Dubai Coating Limited</p>
+        <p class="footer-tag">Surface preparation and coating specialists</p>
+        <p style="margin-top:1rem;max-width:36ch">
+          Blasting, industrial painting, equipment rental and anti-corrosion protection
+          across the United Arab Emirates.
+        </p>
+      </div>
+
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="about.html">About DCL</a></li>
+          <li><a href="news.html">News &amp; events</a></li>
+          <li><a href="certifications.html">Certifications &amp; approvals</a></li>
+          <li><a href="services.html">All services</a></li>
+          <li><a href="plant.html">Plant &amp; equipment</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="quote.html">Request a quote</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li data-address>PO Box 23366, Dubai, United Arab Emirates</li>
+          <li><a data-tel href="tel:+97143458438">+971 4 3458438</a></li>
+          <li>Fax <a data-fax href="tel:+97143457671">+971 4 3457671</a></li>
+          <li><a data-mail href="mailto:dcl@emirates.net.ae">dcl@emirates.net.ae</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-legal">
+      <span>&copy; <span id="year">2026</span> Dubai Coating Limited. All rights reserved.</span>
+      <span>Dubai, United Arab Emirates</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
